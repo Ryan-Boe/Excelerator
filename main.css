@@ -1,0 +1,37 @@
+.inventory{
+    position: fixed;
+    bottom: 0;
+    width: 200;
+}
+
+.excelButton{
+    background-color: #ffffff;
+    font-family: Calibri, sans-serif;
+    border: 1px solid black;
+    margin: auto;
+
+}
+
+.sidemarket{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 300px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #1D6F42; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    float: right;
+}
+
+.titleText{
+    width: 320; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background-color: #1D6F42;
+    color: #ffffff;
+    text-align: center;
+    font-family: Calibri, sans-serif;
+}
